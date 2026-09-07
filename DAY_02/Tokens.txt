@@ -1,0 +1,144 @@
+Token
+
+A token is the smallest individual unit in a Python program that has a specific meaning to the interpreter.
+
+Categories of Tokens in Python
+
+1.Keywords
+
+.Reserved words with a predefined meaning.
+.Examples: if, else, for, while, class, def, return
+.Rule: Cannot be used as variable, function, or class names.
+
+2.Identifiers
+
+.Names given to variables, functions, classes, etc.
+.Examples: age, student_name, calculate()
+
+Rules:
+
+.Must start with a letter or _.
+.Cannot start with a number.
+.Can contain letters, digits, and _.
+.Cannot be a keyword.
+.Python is case-sensitive (Age and age are different).
+
+3.Literals
+
+.Fixed values directly written in a program.
+.Examples: 10, 3.14, "Hello", True
+.Categories: Numeric, String, Boolean, and special literals.
+
+4.Operators
+
+.Symbols used to perform operations.
+.Examples: +, -, *, /, ==, >, and
+.Rule: Operators must be used according to their defined syntax and operands.
+
+5.Delimiters / Punctuators
+
+.Symbols used to separate or structure program elements.
+.Examples: (), [], {}, :, ,, ., ;
+.Rule: They must be used in the correct syntactical position.
+
+6.Comments
+
+.Notes written in a program that Python ignores during execution.
+.Examples: # This is a comment - single line comment
+''' hello''' - multi line comment
+.Rule: A single-line comment starts with #; Python does not execute it.
+
+Quick example
+
+age = 20
+if age >= 18:
+    print("Adult")
+
+Here:
+
+if → Keyword
+age → Identifier
+20, "Adult" → Literals
+=, >= → Operators
+:, (, ) → Delimiters
+
+
+
+VARIABLE
+--------
+.A variable is a name used to store a value in memory.
+  eg: age = 20
+      name = "Lohitha"
+
+
+To know keywords the code is
+-----------------------------
+
+ import keyword
+ print(keyword.kwlist)
+
+35 KEYWORDS
+
+1. False – Represents a false Boolean value.
+2. None – Represents the absence of a value.
+3. True – Represents a true Boolean value.
+4. and – Returns true when both conditions are true.
+5. as – Gives another name (alias) to an imported module or object.
+6. assert – Checks whether a condition is true.
+7. async – Defines an asynchronous function or operation.
+8. await – Waits for an asynchronous operation to complete.
+9. break – Stops a loop immediately.
+10. class – Defines a class.
+11. continue – Skips the current loop iteration and moves to the next iteration.
+12. def – Defines a function.
+13. del – Deletes a variable, object reference, or item.
+14. elif – Checks another condition if the previous if condition is false.
+15. else – Executes when the preceding condition is false.
+16. except – Handles an exception in a try block.
+17. finally – Executes code after try/except, regardless of the result.
+18. for – Repeats code for each item in a sequence.
+19. from – Imports specific items from a module.
+20. global – Refers to a variable defined in the global scope.
+21. if – Executes code when a condition is true.
+22. import – Imports a module into a program.
+23. in – Checks whether a value exists in a sequence or collection.
+24. is – Checks whether two references point to the same object.
+25. lambda – Creates a small anonymous function.
+26. nonlocal – Refers to a variable in an enclosing function.
+27. not – Reverses a Boolean condition.
+28. or – Returns true when at least one condition is true.
+29. pass – Does nothing and is used as a placeholder.
+30. raise – Manually raises an exception.
+31. return – Sends a value back from a function.
+32. try – Defines a block of code for exception handling.
+33. while – Repeats code while a condition is true.
+34. with – Manages resources such as files using a context manager.
+35. yield – Produces a value from a generator without ending the function.
+
+
+Assigning values to variables
+-----------------------------
+
+
+a = 10
+a = b = c = 10
+a,b,c = 10,20,30
+a,b = b,a (swap numbers)
+del a (delete a variable)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
