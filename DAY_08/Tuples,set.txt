@@ -1,0 +1,99 @@
+Tuple
+-->collection of elements enclosed in parenthesis().
+
+Tuple operations
+----------------
+1.Concatenation
+2.Repetition
+3.Indexing
+4.Slicing
+5.Membership
+
+-->we cannot do changes in tuple, but when the list is presnt inside the tuple then we can change the list.
+
+Tuple Methods
+--------------
+1. sorted(var_name)
+2. min(var_name)
+3. max(var_name)
+4. len(var_name)
+5. var_name.index(elements in that variable)
+6. var_name.count(elements in that variable)
+7. all()
+8. any()
+9. sum(var_name)
+
+
+
+Set
+-->collection of elements enlosed in curly braces{}.
+-->set is going to be declared using s = set().
+
+Rules
+------
+ .Stores unique elements, Does not allow duplicates
+ .Ordered
+ .Does not support indexing like lists
+ .Can be changed (mutable)
+
+Set Operations
+--------------
+
+1.Union(|)-Combines all elements from both sets, removing duplicates.
+2.Intersection(&)-Gives the elements that are common to both sets.
+3.Difference(-)-Gives elements that are in the first set but not in the second.	{1,2,3} - {2,3} → {1}
+4.Symmetric Difference(^)-Gives elements that are in either set, but not in both.                   
+  EG: {1,2,3} ^ {2,3,4} → {1,4}
+5.Membership
+
+-->can use union symbol or union() directly. same for intersection, difference.
+Set Relations
+-------------
+Subset(<=)-Checks whether all elements of one set are present in another set.	{1,2} <= {1,2,3} → True
+Superset(>=)-Checks whether a set contains all elements of another set.	{1,2,3} >= {1,2} → True
+Disjoint(.isdisjoint())-Checks whether two sets have no common elements.	
+Eg: {1,2}.isdisjoint({3,4}) → True
+
+Methods
+--------
+1. all()
+2. any()
+3. max()
+4. sorted()
+5. min()
+6. len()
+7. copy()-called as shallow copy
+8.var_name.add()-for adding single element
+9. var_name.update()-for adding multiple elements
+10.var_name.pop()
+11.var_name.remove()
+12.var_name.discard()
+13.var_name.clear()
+
+.If we remove a number once and again if we try to remove it by remove() method then it will give error.
+.If we remove a number once and again if we try to remove it by discard() method then it won't give error.So using discard method is more recommended. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
