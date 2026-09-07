@@ -1,0 +1,112 @@
+OOPS
+----
+
+Class → A blueprint/template that contains attributes and methods
+
+Attributes → Variables/data inside a class
+-----------
+There are two types of attributes:
+1. Class Attribute(defined inside class)
+A class attribute is a variable that is common to all objects of a class.
+Eg: class Flipkart:
+    discount = 30
+
+The discount is same for all the objects.    
+
+2. Instance Attribute
+An instance attribute is a variable that belongs to a particular object.
+Its value can be different for each object.
+
+eg:
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+name, age are different for each object        
+
+
+Methods → Functions defined inside a class
+--------
+
+There are three methods
+1. Class Method
+---------------
+Works with the class.
+Uses cls. - cls is used in a class method to refer to the class itself.
+Created using @classmethod.
+Can access class attributes.
+
+2.Instance Method
+------------------
+Works with a particular object.
+Uses self.
+Can access instance attributes.
+
+3.Static Method(it is a helper)
+----------------
+Does not depend on the object or class.
+Does not use self or cls.
+Created using @staticmethod.
+a static method can access class attributes, but it must access them using the class name.
+
+
+-------------------------------------------------------------------------------------------------------
+
+1. OOP is used when we have Users/Objects
+
+Suppose we are creating a banking application. We may have many users.
+
+Each user has:
+
+name
+account number
+balance
+
+And actions:
+
+deposit()
+withdraw()
+check_balance()
+
+Instead of writing separate code for every user, we create a class.
+
+2. Wrapping Data → Encapsulation
+Encapsulation means wrapping data and the methods that operate on that data into one unit, usually a class.
+(wrapping data and functions together inside a class.)
+
+3. Inheritance
+Inheritance means one class can acquire the properties and methods of another class.
+(Acquiring the properties from parent to child class.)
+
+Types of Inheritance in Python
+
+There are 5 main types:
+
+1.Single Inheritance → One parent → One child
+Animal → Dog
+2.Multiple Inheritance → Multiple parents → One child
+Father + Mother → Child
+3.Multilevel Inheritance → Parent → Child → Grandchild
+Animal → Dog → Puppy
+4.Hierarchical Inheritance → One parent → Multiple children
+Animal → Dog
+Animal → Cat
+5.Hybrid Inheritance → Combination of two or more types of inheritance.
+
+4. Polymorphism
+Polymorphism means "many forms."
+The same method name can behave differently for different objects.
+
+5. Abstraction
+
+Abstraction means hiding unnecessary implementation details/complexity and showing only what the user needs.
+
+Real-life example:
+When you use an ATM - You don't see how the ATM works internally.
+
+
+Access Modifiers
+1.Public
+2.Private
+3.Protected
