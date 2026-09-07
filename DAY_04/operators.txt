@@ -1,0 +1,81 @@
+Python operators
+
+1. Arithmetic operators
+------------------------
+Used for mathematical calculations
+
++	Addition		5 + 3 = 8
+-	Subtraction		5 - 3 = 2
+*	Multiplication		5 * 3 = 15
+/	Division		5 / 2 = 2.5
+%	Modulus (remainder)	5 % 2 = 1
+**	Exponent (power)	2 ** 3 = 8(When we give float value we get result as float, Eg:10.6//2 =2.3) 
+//	Floor division		5 // 2 = 2
+
+
+2. Comparison Operators/Relational
+----------------------------------
+Used to compare two values. They return True or False.
+
+==	Equal to
+!=	Not equal to
+>	Greater than
+<	Less than
+>=	Greater than or equal to
+<=	Less than or equal to
+
+
+3. Assignment operators
+------------------------
+Used to assign values to variables.
+
+
+=	x = 5		Assign value
++=	x += 2		x = x + 2
+-=	x -= 2		x = x - 2
+*=	x *= 2		x = x * 2
+/=	x /= 2		x = x / 2
+%=	x %= 2		x = x % 2
+//=	x //= 2		x = x // 2
+**=	x **= 2		x = x ** 2
+
+4. Logical operators
+---------------------
+
+Used to combine conditional statements.
+
+and	True if both conditions are true
+or	True if at least one condition is true
+not	Reverses the result
+
+
+5.Membership operator
+----------------------
+Check whether a value exists in a sequence.
+-Membership operator only checks for keys not values in dictionary
+
+in		Returns True if value is present
+not in		Returns True if value is absent
+
+
+6.Identity Operators
+---------------------
+-Compare whether two variables refer to the same object in memory.
+-If both id is same then they are identical or else they are not identical
+
+is		True if both objects are the same
+is not		True if objects are different
+
+
+7. Bitwise Operators
+---------------------
+Operate on the binary representation of integers.
+
+&	Bitwise AND
+|	Bitwise OR
+^	Bitwise XOR( 0-0 =0, 1-1=0, remaining 1, same bits 0, different bits 1)
+~	Bitwise NOT(eg: 64, ans will be -65, ~n = -(n + 1))
+<<	Left shift(add two zeros at end eg: 0010 then <<2 means 001000) 
+>>	Right shift(remove zeros at end)
+
+
