@@ -1,0 +1,151 @@
+Dictionary
+----------
+
+A dictionary is a collection of data stored in key-value pairs enclosed in curly braces.
+
+Syntax
+-------
+dictionary = {
+    key1: value1,
+    key2: value2,
+    key3: value3
+}
+
+
+Properties
+1.Mutable
+2.Ordered
+3.Heterogeneous
+4.Dynamically sized
+5.Contains unique values
+(Duplicated keys are not allowed but values are allowed)
+
+
+Why list and Set are not allowed in Dictionary?
+
+.Dictionary keys should not change.
+.List and Set can change, so they cannot be keys.
+.Tuple and String cannot change, so they can be keys.
+
+-->Keys elements need to be immutable, but value elements can be anything. 
+
+Operation
+----------
+
+1.Membership
+.checks whether the element is present in the data or not.
+.It only work for key elements, not for values.
+
+
+2.Accessing(direct method using keys)
+.To access value we use var_name[key]
+
+.Get a value using its key:
+d["name"]
+
+
+3.get() method
+.The get() method is used to retrieve the value of a key safely.
+
+
+4. Adding a Single Item
+.Add one key-value pair:
+
+Eg: d["course"] = "Python"
+
+
+5. Adding Multiple Items
+.Use update() to add multiple key-value pairs:
+
+Eg: d.update({"city": "Hyderabad", "marks": 90})
+
+
+6. Modifying an Item
+.Use the key and assign a new value:
+
+Eg: d["marks"] = 99
+
+
+7. popitem()
+.Removes and returns the last key-value pair.
+
+d = {"name": "Lohitha", "age": 22, "course": "Python"}
+d.popitem()
+
+.Then last element will be removed
+
+
+8. pop()
+.Removes a specific key-value pair using its key.
+
+d.pop("age")
+
+
+9. del
+.Deletes a specific key-value pair.
+
+del d["name"]
+
+10. clear()
+.Removes all items from the dictionary.
+
+d.clear()
+
+
+
+Functions
+----------
+
+1. len()
+.Returns the number of key-value pairs.
+Eg: len(d)
+
+2.keys()
+.Returns all the keys(Key elements).
+Eg: d.keys()
+
+3. values()
+Returns all the values(value elements).
+Eg: d.values()
+
+4. max()
+Returns the maximum key by default.
+Eg: max(d)
+
+5. min()
+Returns the minimum key by default.
+Eg: min(d)
+
+6. sorted()
+Returns the keys in sorted order.
+
+d = {"c": 20, "a": 10, "b": 30}
+sorted(d)
+
+Output:
+['a', 'b', 'c']
+
+7. setdefault() 
+setdefault() is used to get the value of a key. If the key does not exist, it adds the key with a defaul
+
+8. fromkeys() 
+fromkeys() is used to create a new dictionary using a list/sequence of keys with the same value.
+
+dict.fromkeys(["Python","mysql","java"],0)
+{'Python': 0, 'mysql': 0, 'java': 0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
