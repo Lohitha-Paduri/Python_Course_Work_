@@ -1,0 +1,13 @@
+Type conversions
+
+1. int can be converted into float, str, complex, bool.
+2. float can be converted into int, str, complex, bool.
+3. complex can be converted into str, bool.
+4. str can be converted into int, float, complex, list, tuple, set(only when numeric values are inside)
+.Eg: s = '1234'
+.if it is s = 'hello'- we can convert into bool, list, tuple, set.
+5. list can be converted into str, bool, tuple, set.
+6. tuple can be converted into str, bool, list, set.
+7. set can be converted into str, bool, list, tuple.
+8. dict can be converted into bool, list, tuple, set, str.
+9. bool can be converted into int, float, str, complex. 

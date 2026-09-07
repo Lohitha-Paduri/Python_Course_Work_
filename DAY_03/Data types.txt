@@ -1,0 +1,93 @@
+Data types
+----------
+
+1)Numeric data types
+
+1. int:	Stores whole numbers without a decimal point. Example: 10, -25.
+2. float: Stores numbers with a decimal point. Example: 3.14, -2.5.
+3. complex: Stores numbers with a real and an imaginary part. Example: 2+3j.
+
+2)Sequence data types
+
+1. str (String): stores a sequence of characters enclosed in single, double, or triple quotes. 
+Example: "Hello".
+
+ Rules:
+1.Immutable(ID changes)
+2.List is ordered
+ 
+2. list: Collection of strings enclosed in a square brackets. 
+Example: [1, 2, 3].
+
+ Rules
+1. Mutable(ID do not changes, we can change the element within the same object reference.)
+2. Allows duplicates
+3. Dynamically sized
+4. Heterogenous(Multiple variations)
+5. List is ordered
+
+3. tuple: Collection of elements enclosed between parenthesis.
+Example: (1, 2, 3).
+
+ Rules
+1. Immutable
+2. Fixed size
+3. same order
+4. Allows Duplicates
+5. Heterogenous
+
+3) Mapping data types
+
+1. Set: Collection of elements enclosed between curly braces.
+Example: {1, 2, 3}
+
+ Rules
+1. Mutable
+2. Do not allow duplicates
+3. Dynamically sized
+4. Heterogenous
+5. Unordered
+
+Eg: Instagram followers
+
+
+In set there is another topic called frozen set
+Frozen set: Fixed data(immutable)
+
+
+2. Dictionary: Collection of key-value pairs enclosed between curly braces.
+Example: {"name": "Alice", "age": 20}
+
+ Rules:
+1. Ordered
+2. Dynamically sized
+3. Mutable
+4. Heterogeneous
+
+
+Boolean: Stores one of two logical values: True or False. Used for conditions and comparisons.
+
+NoneType (None): Represents the absence of a value or a null value. 
+Example: a = None
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
