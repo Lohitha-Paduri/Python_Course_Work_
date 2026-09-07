@@ -1,0 +1,40 @@
+conditional statements
+-----------------------
+It has four statements
+1. simple if
+2. if-else
+3. elif ladder
+4. nested if
+
+
+Syntax for statements:
+
+1. simple if
+if cond:
+      #statements
+----------------------------------
+2.if-else
+if cond:
+    #stmts t      
+else:
+    #stmts f   
+----------------------------------
+ 3. elif ladder
+if cond1:
+    #stmts 
+elif cond2:
+    #stmts
+...(can write many elif conditions)    
+else: (else is optional here)
+    #stmts
+-----------------------------------
+4. nested if
+if cond1:
+    if cond2:
+        #stmts
+    elif cond:
+        #stmts    
+elif cond3:
+    #stmts
+else:
+    #stmts                           

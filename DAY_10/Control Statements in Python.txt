@@ -1,0 +1,91 @@
+Control Statements in Python
+
+Control statements are used to control the flow of execution of a program. They decide which code should execute, how many times it should execute, and when the execution should stop or skip.
+
+--Responsible for Decision making
+--How many times we need to Iterate or repeat
+--when to stop and skip
+
+Types of Control Statements
+-----------------------------
+
+There are 3 main types:
+
+
+1. Conditional Control Statements
+
+Used to make decisions based on conditions.
+
+Statements:
+
+if-Checks a condition
+if-else  - else executes when if is false
+if-elif-else - checks multiple conditions
+Nested if - if inside another if
+
+
+2. Looping Control Statements
+
+Used to repeat a block of code.
+
+Statements:
+
+for - repeats for each value
+while - repeats while condition is true
+
+
+3. Jump/Transfer Control Statements
+
+Used to change the normal flow of execution.
+
+Statements:
+
+break → stops the loop
+continue → skips the current iteration
+pass → does nothing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
