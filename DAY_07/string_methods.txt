@@ -1,0 +1,99 @@
+Whitespace and trimming methods
+------------------------
+
+1.Strips
+Removes spaces from both the beginning and the end.
+
+2.lstrip()
+Removes spaces only from the left (beginning).
+
+3.rstrip()
+Removes spaces only from the right (end).
+
+
+Splitting and Joining methods
+------------------------------
+
+1. split()
+
+split() divides a string based on a separator and returns a list.
+If you don't give a separator, it splits at spaces.
+
+Eg:
+text = "I love Python"
+print(text.split())
+
+Output:
+['I', 'love', 'Python']
+
+You can also specify a separator:
+
+text = "apple,banana,mango"
+print(text.split(","))
+
+2. rsplit()
+rsplit() also divides a string, but it starts splitting from the right side.
+
+3. splitlines()
+splitlines() splits a string wherever there is a new line.
+
+4. join()
+join() is used to combine multiple strings into one string.
+
+Think:
+
+split → breaks a string
+join → combines strings
+
+5. partition()
+
+partition() divides a string into 3 parts based on a separator:
+before separator + separator + after separator
+
+-->Its like left part,right part, middle part
+
+6.rpartition()
+rpartition() is similar to partition(), but it searches for the separator from the right side.
+
+
+Testing methods
+---------------
+
+1. startswith()
+Checks whether a string starts with a particular value.
+
+2. endswith()
+Checks whether a string ends with a particular value.
+
+3. islower()
+Checks whether all alphabetic characters are lowercase.
+
+4. isupper()
+Checks whether all alphabetic characters are uppercase.
+
+5. isalpha()
+Checks whether the string contains only alphabets.
+
+6. isalnum()
+
+Alphanumeric = alphabets + numbers
+Checks whether the string contains only letters and/or numbers.
+
+7. isspace()
+Checks whether the string contains only whitespace such as spaces, tabs, or new lines.
+
+8. istitle()
+Checks whether every word starts with an uppercase letter and the remaining letters are lowercase.
+
+9. isidentifier()
+Checks whether a string is a valid Python identifier (such as a variable name).
+
+10. isdigit()
+Checks whether all characters are digits.
+
+11. isnumeric()
+Checks whether all characters are numeric characters.
+
+2. isdecimal()
+Checks whether all characters are decimal digits.
+
