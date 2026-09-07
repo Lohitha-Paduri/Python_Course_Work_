@@ -1,0 +1,32 @@
+Features of python
+-------------------
+
+1. Easy to learn and read
+2. Open source and free to use
+3. Interpreted language
+4. High level language
+5. Object oriented language
+6. Dynamically typed
+7. Large standard library
+8. Exception handling
+9. Database and GUI support
+10. Supports multiple programming paradigms
+11. Good for automation
+
+
+Principles of object oriented programming language
+--------------------------------------------------
+
+.Class: A blueprint for creating objects.
+.Object: An instance of a class.
+.Inheritance: Acquiring properties and methods from another class.
+.Polymorphism: One method or operation having many forms.
+.Encapsulation: Bundling data and methods into a single unit.
+.Abstraction: Hiding implementation/unnecessary details and showing only essential features.
+
+Memory types in python
+-----------------------
+
+.Stack Memory: Stores local variables and function calls temporarily.
+.Heap Memory: Stores objects and dynamically created data.
+.Static Memory: Stores global variables that remain throughout the program.
