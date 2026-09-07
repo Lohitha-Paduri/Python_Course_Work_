@@ -1,0 +1,110 @@
+Strings
+
+A string is a sequence of characters enclosed in single (' '), double (" "), or triple (''' ''' / """ """) quotes.
+Eg:name = "Lohitha"
+
+Rules:
+.Strings are ordered.
+.Strings are immutable (cannot be changed after creation).
+
+string operations
+
+1. Concatenation
+-->Joining two or more strings using +.
+
+first = "Hello"
+second = "Python"
+Hello Python
+
+
+2. Repetition
+
+-->Repeating a string using *.
+
+'Hi '*3
+Hi Hi Hi
+
+
+3. Indexing
+
+-->Accessing individual characters using their position.
+-->Indexing has both positive and negative indexing.
+
+text = "Python"
+text[0] = P
+text[-1] = n
+
+
+
+4. Slicing
+
+-->Extracting a part of a string.
+var[start:end+1:step]
+
+name = 'lohitha'
+name[:2]
+Output: loh
+
+5.Membership
+
+-->used to check whether a particular value or character exists in a sequence such as a string, list, tuple, or set.
+
+two operators
+i)not
+ii)is not 
+
+ord()-Returns the Unicode/ASCII value of a character.
+chr()-Returns the character represented by a Unicode/ASCII value.
+sorted()-Returns the elements in sorted order as a new list.
+max()-Returns the largest value from a sequence.
+min()-Returns the smallest value from a sequence.
+upper()-Converts all letters in a string to uppercase.
+lower()-Converts all letters in a string to lowercase.
+capitalize()-Converts the first character to uppercase and the remaining characters to lowercase.
+swapcase()-Converts uppercase to lowercase and lowercase to uppercase.
+center()-Centers a string within a specified width by adding spaces or specified characters.
+casefold()-Converts a string into a case-insensitive lowercase form, mainly for comparison.
+ljust()-Aligns a string to the left and fills the remaining space.
+rjust()-Aligns a string to the right and fills the remaining space.
+zfill()-Pads a string with zeros (0) on the left to reach a specified width.
+find()-Returns the first position (index) where a substring is found; returns -1 if not found.
+rfind()-Returns the last position (index) where a substring is found; returns -1 if not found.
+replace()-Replaces a specified substring or character with another.
+maketrans()-Creates a translation table for replacing characters.
+translate()-Uses a translation table to replace or remove characters in a string.
+encode()-Converts a string into bytes using a specified encoding format.
+decode()-Converts bytes back into a string using a specified encoding format.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
