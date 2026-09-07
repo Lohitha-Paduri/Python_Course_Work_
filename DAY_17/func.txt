@@ -1,0 +1,170 @@
+FUNCTIONS
+----------
+A function is a reusable block of code that performs a specific task.
+
+Advantages:
+-----------
+
+1. Code Reusability
+
+A function can be written once and called many times.
+
+def greet():
+    print("Hello")
+
+greet()
+greet()
+greet()
+
+Output:
+Hello
+Hello
+Hello
+
+
+2. Avoids Code Repetition
+
+Instead of writing the same calculation multiple times, use a function.
+
+def square(n):
+    print(n * n)
+
+square(5)
+square(10)
+square(15)
+
+Output:
+25
+100
+225
+
+
+3. Makes Code Readable
+
+-->Functions make it clear what a particular part of the program does.
+
+def calculate_total(price, quantity):
+    return price * quantity
+
+total = calculate_total(100, 3)
+print(total)
+
+Instead of having a calculation mixed with other code, calculate_total() clearly tells us its purpose.
+
+
+4. Easy Debugging
+
+-->If there is an error in a particular operation, we can check that function separately.
+
+def divide(a, b):
+    return a / b
+
+print(divide(10, 2))
+
+If division is causing an error, we know to check the divide() function.
+
+
+5. Easy Maintenance
+
+-->If we need to change something, we can change it in one place.
+
+def tax(price):
+    return price * 0.10
+
+print(tax(100))
+print(tax(500))
+
+-->If the tax changes from 10% to 15%, we only change:
+
+def tax(price):
+    return price * 0.15
+
+We don't need to change every calculation.
+
+
+6. Modularity
+
+-->A large program can be divided into smaller functions.
+
+def login():
+    print("Login")
+
+def calculate_bill():
+    print("Calculating bill")
+
+def logout():
+    print("Logout")
+
+login()
+calculate_bill()
+logout()
+
+Each function performs a specific task.
+
+
+7. Saves Time
+
+-->Functions save time because we don't have to rewrite the same logic.
+
+def add(a, b):
+    return a + b
+
+print(add(10, 20))
+print(add(50, 30))
+print(add(100, 200))
+
+We write the addition logic only once.
+
+
+8. Improves Organization
+
+-->Functions help organize a program logically.
+
+def get_name():
+    return "Lohitha"
+
+def get_age():
+    return 22
+
+name = get_name()
+age = get_age()
+
+print(name)
+print(age)
+
+Different tasks are separated into different functions.
+
+
+9. Functions Can Be Reused in Different Programs
+
+-->A useful function can be placed in a module and reused in another program.
+
+calculator.py
+-------------
+def add(a, b):
+    return a + b
+
+main.py
+-------
+from calculator import add
+
+print(add(10, 20))
+
+The same add() function can be used in multiple programs.
+
+
+10. Makes Testing Easier
+
+-->We can test a function separately.
+
+def is_even(n):
+    return n % 2 == 0
+
+print(is_even(10))
+print(is_even(7))
+
+Output:
+True
+False
+
+We can easily check whether is_even() is working correctly.
